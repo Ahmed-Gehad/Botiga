@@ -20,3 +20,129 @@ a:hover{
 .into-blog h2{
   font-size: 30px;
 } 
+
+
+nav{
+    height:100px ;
+    color: black;
+}
+nav a:hover{
+color:gray;
+}
+.item1{
+    background-image: url(../img/headline-home.webp);
+    height: 900px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+    width: 120px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+    
+}
+button:hover{
+    opacity: 0.5;
+}
+.item2 img{
+    width: 320px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+.item2 img:hover{
+  
+    
+}
+.item3{
+    background-image: url(../img/highlighted-home.webp);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.item4 img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+footer img{
+    height: 15px;
+    width: 15px;
+}
+footer{
+    background-color: #eceaea;
+}
+
+.sale{
+    position: absolute;
+    top: 25px;
+    left:80px;
+    width: 80px;
+    padding-top: 2px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+#rela{
+    position: relative;
+}
+#pos{
+    position: absolute;
+bottom: 320px;
+left: 160px;
+}
+.item2 button{
+opacity: 0.001;
+}
+.item2 button:hover{
+opacity: 1;
+}
+
+/* --------------contact-------------------- */
+
+
+    #name{
+        margin-bottom:40px ;
+        margin-top: 20px;
+        
+        width: 250px;
+        height: 50px;
+        padding: 10px;
+    }
+    #email{
+        margin-bottom:40px ;
+        margin-top: 20px;
+        padding: 10px;
+
+        width: 300px;
+        height: 50px;
+    }
+    #message{
+        width: 600px;
+        height: 200px;
+        margin: 20px 0px ;
+        padding: 20px;
+    }
+    
+    .bu{
+        width: 200px;
+        margin-bottom: 100px;
+    }
+   
+    #sp{
+        color: red;  
+    }
+    
+
+
+    /* -------------form-style--------------- */
+#result{
+    color: red;
+    font-weight: 600;
+    position: relative;
+   
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+    emailjs.init({
+    publicKey: "pQ60zvUmngWhLDCe6",
+        });
+     })();
+</script>
+</head>
+<body>
+    <!-- ----------------start nav------------------------- -->
+    <nav class=" d-flex justify-content-end align-items-center mx-3">
+        <div class="container-fluid pe-5 ps-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="row d-flex ">
+                        <div class="col-lg-2"><a href="index.html">Home</a></div>
+                        <div class="col-lg-2"><a href="main-blog.html">Blog</a></div>
+                        <div class="col-lg-2"><a href="shop.html">Shop</a></div>
+                        <div class="col-lg-2"><a href="contact.html">Contact</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center"><h3>BOTIGA</h2></div>
+                <div class="col-lg-3  ">
+                    <div class="row d-flex justify-content-end" >
+                        <div  class="col-lg-2 " id="home"><a href="searsg"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                        <div  class="col-lg-2 " id="home"><a href="Account.html"><i class="fa-regular fa-user"></i></a></div>
+                        <div  class="col-lg-2 " id="home"><a href="shopping"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+    </nav>
+    <!-- ----------------end nav------------------------- -->
+         <!-- ----------------start h1------------------------- -->
+
+     <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center mb-5 mt-5">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+     </div>
+         <!-- ----------------end h1------------------------- -->
+         <!-- ----------------start iframe------------------------- -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center mt-5 mb-5">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.4144535083074!2d-73.98621297672595!3d40.752908271387376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259ab87bfffff%3A0x189f281028fa3e1b!2zNTAxLTUyMSBGYXNoaW9uIEF2ZSwgTmV3IFlvcmssIE5ZIDEwMDE42Iwg2KfZhNmI2YTYp9mK2KfYqiDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2seg!4v1732605620077!5m2!1sar!2seg" width="1000" height="500" style="border:0;"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            </div>
+        </div>
+    </div>
+         <!-- ----------------end iframe------------------------- -->
+         <!-- ----------------start end------------------------- -->
+          <div class="end mt-5 ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-12 ">
+                        <div class="row ">
+                            <div class="col-lg-8" id="personal">
+                                <h1 >Leave Us a Message</h1>
+                                   <div class="row">
+                                    <div class="col-lg-4">
+                                        <h5 class="mt-5 mb-4">Name <span id="sp">*</span> </h5>
+                                         <input id="name" type="text" name="name" required>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <h5 class="mt-5 mb-4">Email <span id="sp">*</span> </h5>
+                                         <input id="email" type="email" name="email" required>
+                                    </div>
+                                   </div>
+                                
+                                <h5>Comment or Message <span id="sp">*</span> </h5> 
+                                  <textarea name="message" id="message" rows="4" required></textarea>                  
+                                               
+                                <br><button class="bu" type="submit" onclick="sendEmail()">SEND MESSAGE</button>
+                              </div>
+                              <div class="col-lg-4 " class="detail">
+                                  <h1>Our Store</h1>
+                                  <p>501-521 Fashion Ave, New York, NY 10018, USA</p>
+                                  <p>PHONE:</p>
+                                  <p>+1 212 244 2681</p>
+                                  <p>E-MAIL:</p>
+                                  <p>office@example.org</p>
+                                  <h1>Store Hours</h1>
+                                  <p>Sun: Closed</p>
+                                  <p>Mon to Sat: 10 AM – 5:30 PM</p>
+                              </div>
+                        </div>
+                           
+                    </div>
+                </div>
+            </div>
+          </div>
+         <!-- ----------------end iframe------------------------- -->
+ <!-- ----------------start footer------------------------- -->
+ <footer class="mt-5 pt-5 pb-3" >
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <h2></h2>
+                <p>Give your customers insight into your product collection.</p>
+            </div>
+            <div class="col-lg-4">
+                <h2>Quick links </h2>
+                <p>Home</p>
+                <p>Blog</p>
+                <p>Shop</p>
+            </div>
+            <div class="col-lg-4">
+                <h2>About</h2>
+                <p>Shipping</p>
+                <p>Terms</p>
+                <p>Policy</p>
+            </div>
+        </div>
+        <div class="row mt-5 pt-5 d-flex align-items-center">
+            <div class="col-lg-6 ">
+                     <div class="row d-flex">
+                        <div class="col-lg-1"><img src="img/facebook.png" alt=""></div>
+                        <div class="col-lg-1"><img src="img/twitter.png" alt=""></div>
+                        <div class="col-lg-1"><img src="img/instagram.png" alt=""></div>
+                     </div>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="fs-5 text-end">© 2024 Botiga. Proudly powered by Botiga</h3>
+            </div>
+        </div>
+    </div>
+  </footer>
+ <!-- ----------------end footer------------------------- -->
+
+ <script src="js/popper.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/main.js"></script>
+<script src="js/contact.js"></script>
+</body>

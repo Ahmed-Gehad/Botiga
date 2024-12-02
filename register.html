@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- ----------------start nav------------------------- -->
+    <nav class=" d-flex justify-content-end align-items-center mx-3">
+        <div class="container-fluid pe-5 ps-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="row d-flex ">
+                        <div class="col-lg-2"><a href="index.html">Home</a></div>
+                        <div class="col-lg-2"><a href="main-blog.html">Blog</a></div>
+                        <div class="col-lg-2"><a href="shop.html">Shop</a></div>
+                        <div class="col-lg-2"><a href="contact.html">Contact</a></div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center"><h3>BOTIGA</h2></div>
+                <div class="col-lg-3  ">
+                    <div class="row d-flex justify-content-end" >
+                        <div  class="col-lg-2 " id="home"><a href="searsg"><i class="fa-solid fa-magnifying-glass"></i></a></div>
+                        <div  class="col-lg-2 " id="home"><a href="Account.html"><i class="fa-regular fa-user"></i></a></div>
+                        <div  class="col-lg-2 " id="home"><a href="shopping"><i class="fa-solid fa-cart-shopping"></i></a></div>
+                    </div>
+                </div>
+
+            </div>
+        </div> 
+    </nav>
+    <!-- ----------------end nav------------------------- -->
+
+
+    <!-- --------------------START SINUP--------------------- -->
+
+    <div class="container account ">
+        <div class="col-lg-12 text-center pb-1"><h1>My account</h1></div>
+
+        <form name="Formfill" class="col-lg-10 form-control mx-auto  pt-2" onsubmit="return validation()" action="Account.html">
+            <h2 class="py-3 mx-3">Register</h2>
+
+            <p id="result" class="mx-3"></p>
+
+            <div class="mb-3 mx-3">
+                <label for="Username" class="form-label">User Name <span id="sp">*</span></label>
+                <input type="text" class="form-control mr-3" id="Username"  >
+            </div>
+
+            <div class="mb-3 mx-3 ">
+                <label for="Email" class="form-label">Email address <span id="sp">*</span></label>
+                <input type="email" class="form-control" style="width: 100%;" id="Email" aria-describedby="emailHelp">
+            </div>
+
+            <div class="mb-3 mx-3">
+                <label for="Password1" class="form-label">Password <span id="sp">*</span></label>
+                <input type="password" name="password1" class="form-control" id="Password1">
+            </div>
+
+            <div class="mb-3 mx-3">
+                <label for="Password2" class="form-label">Confirm Password <span id="sp">*</span></label>
+                <input type="password" name="Password2" class="form-control" id="Password2">
+            </div>
+
+            <div class="mb-3 form-check mx-3">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+              </div>
+           
+            <button type="submit" class="btn btn-dark mx-3 " onclick="validation()" >SINUP</button>
+            <div class="mx-3 py-3">Already have an account? <a href="Account.html" style="color: blue;">Login</a></div>
+        </form>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
